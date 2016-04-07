@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Informácie o autorovi
 
-### More Information
+Stránka bola založená ako semestrálny projekt, zaoberá sa fenoménom nazývaným Memex.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Kontaktuj ma
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[michal.karkas@yahoo.com](mailto:michal.karkas@yahoo.com)
