@@ -13,14 +13,20 @@
 /* BASE RULES */
 /**************/
 
+
 html {
   font-size: 100%;
 }
 
-body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+body
+{font-family: times;
+font-size: 11px;
+color: #000;
+background: url('images/gray.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .container {
