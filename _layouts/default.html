@@ -1,28 +1,4 @@
 <!DOCTYPE html>
-<style> 
-html {
-  font-size: 16px;
-}
-@media (min-width: 48rem) {
-  html {
-    font-size: 20px;
-  }
-}
-
-body {
-  margin: 0;
-  font: 1rem/1.5 "PT Sans", sans-serif;
-  color: #5a5a5a;
-}
-
-a {
-  color: #08c;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-</style>
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -43,6 +19,7 @@ a:hover {
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
+        <img src="../images/header.jpg"/>
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
