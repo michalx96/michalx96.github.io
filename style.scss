@@ -33,7 +33,23 @@ background: url('images/gray.jpg') no-repeat center center fixed;
   margin: 0 auto;
   max-width: 600px;
   padding: 0 10px;
-  width: 100%;
+background-color:#FFF;
+		text-align:justify;
+		margin:auto;
+		float:center;
+		border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+	  box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
 }
 
 h1, h2, h3, h4, h5, h6 {
